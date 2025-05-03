@@ -1,0 +1,75 @@
+:root {
+    /** Colors */
+    --Cinnabar: #d64a33;
+    --Old-Gold: #a9843c;
+    --Rich-Black:#060201;
+    --fuente-principal: 'Lora', serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main
+/* seccion de el video artistas */
+section.section-infinity-records-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* seccion imagen nebulosa con texto */
+.section-imagen-con-infinity-records img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-imagen-con-infinity-records {
+    position: relative; 
+    width: 100%;      /* Necesario para posicionar el texto dentro */
+    height: auto;
+}
+
+.section-imagen-con-infinity-records img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-texto1-encima-infinity-records {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: var(--Cinnabar);
+    font-size: 12rem;
+    font-weight: bold;
+    font-family: var(--fuente-principal);
+}
+
+.section-imagen-con-infinity-records {
+    position: relative; 
+    width: 100%;         
+    height: auto;
+}
+
+.section-imagen-con-infinity-records img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-texto2-encima-infinity-records {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: var(--Rich-Black);
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: var(--fuente-principal);
+}
+
