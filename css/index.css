@@ -1,0 +1,44 @@
+:root {
+    color: black;
+    color: #a59132;
+    color: #d64933;
+    color: white;
+}
+
+.navbar-main {
+    height: 100px;
+    background-image: url(./../img/color\ de\ header.png);
+    background-size: cover;
+    display: flex;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #a59132
+}
+
+.icons-navbar {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
