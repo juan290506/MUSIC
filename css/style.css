@@ -19,6 +19,26 @@ section.section-infinity-records-section {
     display: flex;
     justify-content: center;
 }
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.video-container {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+.section-infinity-records-section {
+    background: linear-gradient(-45deg, #d64a33, #a9843c, #060201, #d64a33);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 
 /* seccion imagen nebulosa con texto */
 .section-imagen-con-infinity-records img {
@@ -45,7 +65,7 @@ section.section-infinity-records-section {
     left: 50%;
     transform: translate(-50%, -50%); /* Centra el texto */
     color: var(--Cinnabar);
-    font-size: 12rem;
+    font-size: 14rem;
     font-weight: bold;
     font-family: var(--fuente-principal);
 }
@@ -72,4 +92,81 @@ section.section-infinity-records-section {
     font-weight: bold;
     font-family: var(--fuente-principal);
 }
+
+
+
+.contenedor-informacion-general {
+    margin: 1rem;
+}
+
+
+
+/* seccion spbre informacion de la empresa infinity records */
+
+.content-infinity-records {
+    display: flex;            
+    align-items: center;      
+    gap: 3rem;                
+}
+
+.content-infinity-records img {
+    width: 25rem;             
+    height: 30rem;
+    padding: 6rem;
+    border-radius: 7rem;
+}
+
+.section-infinity-records-content p {
+    font-size: 1.3rem;
+    color: var(--Rich-Black);
+}
+.section-infinity-records-content h2 {
+    font-size: 2.5rem;
+}
+
+/* seccion spbre informacion donde los sueños musicales encuentran su camino */
+.content-sueños-musicales {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-direction: row-reverse;
+}
+.content-sueños-musicales img {
+    width: 25rem;             
+    height: 30rem;
+    padding: 6rem;
+    border-radius: 7rem;
+}
+
+.section-sueños-musicales-content p {
+    font-size: 1.3rem;
+    color: var(--Rich-Black);
+}
+.section-sueños-musicales-content h2 {
+    font-size: 2.5rem;
+}
+
+/* seccion sobre liderazgo con vision */
+
+.content-liderazgo-vision {
+    display: flex;            
+    align-items: center;      
+    gap: 3rem;                
+}
+
+.content-liderazgo-vision img {
+    width: 25rem;             
+    height: 30rem;
+    padding: 6rem;
+    border-radius: 7rem;
+}
+
+.section-liderazgo-vision-content p {
+    font-size: 1.3rem;
+    color: var(--Rich-Black);
+}
+.section-liderazgo-vision-content h2 {
+    font-size: 2.5rem;
+}
+
 
