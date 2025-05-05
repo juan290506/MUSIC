@@ -1,0 +1,208 @@
+:root {
+    /** Colors */
+    --Cinnabar: #d64a33;
+    --Old-Gold: #a9843c;
+    --Rich-Black:#060201;
+    --fuente-principal: 'Lora', serif;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar Header */
+.navbar-main {
+    height: 100px;
+    background-image: url(./../img/color\ de\ header.png);
+    background-size: cover;
+    display: flex;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    font-family: lora, serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #a59132
+}
+
+.icons-navbar {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+
+main
+/* titulo de seccion artists */
+.content-infinity-records-artists {
+    display: flex;
+    justify-content: center;
+    font-size: 7rem;
+    color: #d64a33;
+    height: 11rem;
+}
+/* artistas infinity recordas informacion */
+.section-imagen-con-infinity-records-artists img {
+    width: 100%;
+    height: 60rem;
+    display: block;
+}
+.Imagen-Artists-Card-1 {
+    position: absolute;
+    top: 20rem;
+    left: 1rem;
+    width: 1.2rem;
+    height: 1rem;
+}
+.imagen-superpuesta {
+    height: 24rem;
+}
+
+.Imagen-Artists-Card-2 {
+    position: absolute;
+    top: 20rem;
+    left: 32rem;
+    width: 1.2rem;
+    height: 1rem;
+}
+.imagen-superpuesta {
+    height: 24rem;
+}
+
+.Imagen-Artists-Card-3 {
+    position: absolute;
+    top: 20rem;
+    left: 65rem;
+    width: 1.2rem;
+    height: 1rem;
+}
+
+.imagen-superpuesta {
+    height: 24rem;
+}
+.Imagen-Artists-Card-4 {
+    position: absolute;
+    top: 50rem;
+    left: 2%;
+    width: 1.2rem;
+    height: 1rem;
+}
+.imagen-superpuesta {
+    height: 24rem;
+}
+.Imagen-Artists-Card-5 {
+    position: absolute;
+    top: 50rem;
+    left: 35rem;
+    width: 1.2rem;
+    height: 1rem;
+}
+.imagen-superpuesta {
+    height: 24rem;
+}
+.Imagen-Artists-Card-6 {
+    position: absolute;
+    top: 50rem;
+    left: 65rem;
+    width: 1.2rem;
+    height: 1rem;
+}
+
+.imagen-superpuesta {
+    height: 24rem;
+}
+
+/* frase motivacional constelacion */
+.content-frase-motivacional-infinity-records {
+    display: flex;            
+    align-items: center;      
+    gap: 3rem;                
+}
+.content-frase-motivacional-infinity-records img {
+    width: 25rem;             
+    height: 30rem;
+    padding: 6rem;
+    border-radius: 7rem;
+}
+.section-frase-motivaciona-infinity-records-content h2 {
+    font-size: 3rem;
+}
+/* Footer */
+.footer {
+    background-image: url(./../img/footer\ color.png);
+    background-size: cover;
+    color: #c5b53d;
+    padding: 40px 20px 10px;
+    font-family: lora, serif;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+    height: 100%;
+}
+
+.footer-links div h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: #c5b53d;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-contact h4 {
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.footer-line {
+    height: 1px;
+    background-color: #c5b53d;
+    margin-top: 30px;
+}

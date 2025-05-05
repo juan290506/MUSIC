@@ -12,6 +12,45 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Navbar Header */
+.navbar-main {
+    height: 100px;
+    background-image: url(./../img/color\ de\ header.png);
+    background-size: cover;
+    display: flex;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    font-family: lora, serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #a59132
+}
+
+.icons-navbar {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
 
 main
 /* seccion de el video artistas */
@@ -26,6 +65,9 @@ section.section-infinity-records-section {
 
 .video-container {
     animation: fadeIn 1.5s ease-out forwards;
+}
+video {
+    border-radius: 19rem;
 }
 .section-infinity-records-section {
     background: linear-gradient(-45deg, #d64a33, #a9843c, #060201, #d64a33);
@@ -167,6 +209,66 @@ section.section-infinity-records-section {
 }
 .section-liderazgo-vision-content h2 {
     font-size: 2.5rem;
+}
+/* Footer */
+.footer {
+    background-image: url(./../img/footer\ color.png);
+    background-size: cover;
+    color: #c5b53d;
+    padding: 40px 20px 10px;
+    font-family: lora, serif;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+    height: 100%;
+}
+
+.footer-links div h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: #c5b53d;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-contact h4 {
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.footer-line {
+    height: 1px;
+    background-color: #c5b53d;
+    margin-top: 30px;
 }
 
 

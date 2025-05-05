@@ -1,0 +1,243 @@
+:root {
+    color: black;
+    color: #a59132;
+    color: #d64933;
+    color: white;
+    font-family: lora, serif;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Navbar Header */
+.navbar-main {
+    height: 100px;
+    background-image: url(./../img/color\ de\ header.png);
+    background-size: cover;
+    display: flex;
+}
+
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    font-family: lora, serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #a59132
+}
+
+.icons-navbar {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+}
+
+
+/* Section: Music */
+.music-section {
+    height: 1000px;
+    margin: 50px 0 0 30px;
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.music-card {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.img-music {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.music-card p,
+.music-card h2 {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    font-family: lora, serif;
+}
+
+.icons-platforms-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icons-platforms {
+    display: flex;
+    flex-direction: row;
+    width: 48px;
+    height: 48px;
+    justify-content: space-between;
+    margin: 20px 15px 0 0;
+}
+
+/* Section: About Us  */
+.container-img {
+    background-image: url(./../img/nebulosa.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: lora, serif;
+    font-size: 30px;
+}
+
+.container-about {
+    color: black;
+    height: 300px;
+}
+
+.container-about h2 {
+    margin: 10px 0px 20px 10px;
+    padding: 0;
+    font-family: lora, serif;
+    font-size: 32px;
+}
+
+.container-about p {
+    margin: 10px 0px 20px 10px;
+    padding: 0;
+    font-family: lora, serif;
+    font-size: 18px;
+}
+
+/* Footer About Us */
+
+.container-form {
+    height: 650px;
+    background-image: url(./../img/footer\ color.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-form h2 {
+    font-size: 32px;
+}
+
+.input-form {
+    width: 800px;
+    height: 30px;
+    margin-top: 7px;
+    border: none;
+    padding-left: 10px;
+    font-family: lora, serif;
+}
+
+.input-form2 {
+    width: 812px;
+    height: 30px;
+    margin-top: 7px;
+    border: none;
+    padding-left: 10px;
+    font-family: lora, serif;
+    color: #757575;
+}
+
+.input-message {
+    height: 300px;
+    width: 808px;
+    margin-top: 7px;
+}
+
+.btn-form {
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+/* Footer */
+.footer {
+    background-image: url(./../img/footer\ color.png);
+    background-size: cover;
+    color: #c5b53d;
+    padding: 40px 20px 10px;
+    font-family: lora, serif;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 60px;
+    height: 100%;
+}
+
+.footer-links div h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    color: #c5b53d;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-contact h4 {
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.footer-line {
+    height: 1px;
+    background-color: #c5b53d;
+    margin-top: 30px;
+}
